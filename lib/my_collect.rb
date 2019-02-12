@@ -8,7 +8,7 @@ def my_collect(array)
       yield(array[i])
       i += 1
     end
-    array.upcase
+    array
   else
     "Block not provided"
   end
