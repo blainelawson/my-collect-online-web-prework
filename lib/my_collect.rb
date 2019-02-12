@@ -18,4 +18,3 @@ my_collect(names) do |name|
   name.split(" ").first
 end
 
-def outside_the_box(["Patricia Dunn", "Albert Pumpernickelk"])
