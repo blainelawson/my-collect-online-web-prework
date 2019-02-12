@@ -3,6 +3,7 @@ names = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 def my_collect(array)
   if block_given?
     i = 0
+    new_array = Array.new
     
     while i < array.length
       new_array << yield(array[i])
